@@ -1,1 +1,0 @@
-# kinsawills.github.io
