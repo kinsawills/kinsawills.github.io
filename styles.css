@@ -1,0 +1,23 @@
+body {
+    background: #1c1917;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    color: #fafaf9;
+    text-align: center;
+}
+h2 {
+    color: #d6d3d1;
+}
+.about {
+    color: #d6d3d1;
+}
+.skills {
+    color: #fdba74;
+}
+.projects {
+    color: #fca5a5;
+}
+.contact {
+    color: #fda4af;
+}
