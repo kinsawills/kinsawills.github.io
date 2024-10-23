@@ -34,12 +34,12 @@ h2 {
     margin: 10px;
     padding: 20px 10px;
     background: #d6d3d1;
-    border-radius: 25%;
+    border-radius: 10%;
 }
 
 a {
-    text-decoration: none;
-    color: purple;
+    text-decoration: underline;
+    color: #78716c;
 }
 
 .project p {
@@ -51,8 +51,12 @@ a {
     width: 300px;
     height: 300px;
     margin: 10px;
-    border: 2px solid rgb(126, 14, 201);
+    border: 2px solid #a8a29e;
     /* choose a color */
     display: block;
     margin: auto;
+}
+
+.project h3 {
+    text-align: center;
 }
