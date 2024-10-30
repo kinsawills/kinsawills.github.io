@@ -1,62 +1,83 @@
 body {
-    background: #1c1917;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  background: #1c1917;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 h1 {
-    color: #fafaf9;
-    text-align: center;
+  color: #fafaf9;
+  text-align: center;
 }
 
 h2 {
-    color: #d6d3d1;
+  color: #d6d3d1;
 }
 
 .about {
-    color: #d6d3d1;
+  color: #d6d3d1;
 }
 
 .skills {
-    color: #fdba74;
+  color: #fdba74;
 }
 
 .contact {
-    color: #fda4af;
+  color: #fda4af;
 }
 
 .projects {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .project {
-    width: 30%;
-    margin: 10px;
-    padding: 20px 10px;
-    background: #d6d3d1;
-    border-radius: 10%;
+  width: 30%;
+  margin: 10px;
+  padding: 20px 10px;
+  background: #d6d3d1;
+  border-radius: 10%;
 }
 
 a {
-    text-decoration: underline;
-    color: #78716c;
+  text-decoration: underline;
+  color: #78716c;
 }
 
 .project p {
-    text-align: center;
-    margin: 15px;
+  text-align: center;
+  margin: 15px;
 }
 
 .project img {
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-    border: 2px solid #a8a29e;
-    /* choose a color */
-    display: block;
-    margin: auto;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: 2px solid #a8a29e;
+  /* choose a color */
+  display: block;
+  margin: auto;
 }
 
 .project h3 {
-    text-align: center;
+  text-align: center;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 100px;
+  margin-left: 100px;
+  justify-content: center;
+}
+
+.about p {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  line-height: 125%;
+}
+
+.about img {
+  height: 200px;
+  border-radius: 15%;
+  border: 2px solid #a8a29e;
 }
