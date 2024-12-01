@@ -38,8 +38,11 @@ h2 {
 }
 
 a {
-  text-decoration: underline;
   color: #78716c;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .project p {
@@ -52,7 +55,6 @@ a {
   height: 300px;
   margin: 10px;
   border: 2px solid #a8a29e;
-  /* choose a color */
   display: block;
   margin: auto;
 }
@@ -80,4 +82,16 @@ a {
   height: 200px;
   border-radius: 15%;
   border: 2px solid #a8a29e;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact p {
+  width: 30%;
+  margin: 10px;
+  padding: 20px 10px;
 }
